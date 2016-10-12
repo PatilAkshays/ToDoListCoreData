@@ -12,11 +12,20 @@
 
 {
     
-    
-    
-    
-    
-    
+    UISegmentedControl *localSegment;
     
 }
+@property (strong, nonatomic) IBOutlet UITextField *textFieldFirst;
+
+@property (strong, nonatomic) IBOutlet UITextField *textFieldSecond;
+
+@property (strong, nonatomic) IBOutlet UITextField *textFieldThird;
+
+- (IBAction)segmentSecond:(id)sender;
+
+- (IBAction)buttonCancel:(id)sender;
+
+
+- (IBAction)buttonSave:(id)sender;
+
 @end
